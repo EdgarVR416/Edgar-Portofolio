@@ -1589,4 +1589,13 @@ footer {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.pricing-section .pricing-table .price-header:before {
+    content: '';
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    top: -12%;
+    right: 30px;
 } 
